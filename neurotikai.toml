@@ -1,0 +1,151 @@
+# User Interface
+"ui.background" = { bg = "base2" }
+# "ui.background.seperator"
+# "ui.cursor"
+# "ui.cursor.insert"
+# "ui.cursor.select"
+"ui.cursor.match" = { bg = "base4" }
+"ui.cursor.primary" = { fg = "base7", modifiers = ["reversed"] }
+"ui.linenr" = { fg = "base5" }
+"ui.linenr.selected" = { bg = "base3" }
+"ui.statusline" = { fg = "base8", bg = "base4" }
+"ui.statusline.inactive" = { fg = "base8", bg = "base8x0c" }
+# "ui.statusline.normal"
+# "ui.statusline.insert"
+# "ui.statusline.select"
+# "ui.statusline.separator"
+"ui.popup" = { bg = "base3" }
+# "ui.popup.info"
+"ui.window" = { bg = "base3" }
+"ui.help" = { fg = "base8", bg = "base3" }
+"ui.text" = { fg = "base8" }
+"ui.text.focus" = { fg = "yellow", modifiers= ["bold"] }
+# "ui.text.info"
+# "ui.virtual"
+"ui.virtual.ruler" = { bg = "base1" }
+"ui.virtual.whitespace" = "base4"
+# "ui.virtual.indent-guide"
+"ui.menu" = { fg = "base8", bg = "base3" }
+"ui.menu.selected" = { fg = "base2", bg = "yellow" }
+# "ui.menu.scroll"
+"ui.selection" = { bg = "base4" }
+# "ui.selection.primary"
+"ui.cursorline" = { bg = "base1" }
+# "ui.cursorline.primary"
+# "ui.cursorline.secondary"
+"warning" = "orange"
+"error" = { bg = "purple", fg = "yellow" }
+"info" = "base8"
+"hint" = "base8"
+diagnostic = { modifiers = ["underlined"] }
+# "diagnostic.hint"
+# "diagnostic.info"
+# "diagnostic.warning"
+# "diagnostic.error"
+
+# Syntax Highlighting
+"attribute" = "blue"
+"type" = "green"
+"type.builtin" = { fg = "red"}
+"constructor" = "blue"
+"constant"  = "orange"
+"constant.builtin" = "red"
+# "constant.character"
+"constant.character.escape" = { fg = "base8" }
+"constant.numeric" = "purple"
+# "constant.numeric.integer"
+# "constant.numeric.float"
+"string" = "yellow"
+# "string.regexp"
+# "string.special"
+# "string.special.path"
+# "string.special.url"
+# "string.special.symbol"
+"comment" = { fg = "base6", modifiers = ["italic"] }
+# "comment.line"
+# "comment.block"
+# "comment.block.documentation"
+"variable"  = "base8"
+"variable.builtin" = "red"
+"variable.parameter" = "#f59762"
+# "variable.other"
+"variable.other.member" = "base8"
+"label" = "base8"
+"punctuation" = "base6"
+# "punctuation.delimiter"
+# "punctuation.bracket"
+# "punctuation.special"
+"keyword" = { fg = "red" }
+# "keyword.control"
+# "keyword.control.conditional"
+# "keyword.control.repeat"
+# "keyword.control.import"
+# "keyword.control.return"
+# "keyword.control.exception"
+# "keyword.operator"
+"keyword.directive" = "blue"
+# "keyword.function"
+# "keyword.storage"
+# "keyword.storage.type"
+# "keyword.storage.modifier"
+"operator" = "red"
+"function" = "green"
+"function.builtin" = { fg = "blue" }
+# "function.method"
+"function.macro" = { fg = "blue" }
+# "function.special"
+"tag" = "red"
+"namespace" = "base8"
+# "markup"
+"markup.heading" = "yellow"
+"markup.heading.marker" = "base6"
+# "markup.1"
+# "markup.2"
+# "markup.3"
+# "markup.4"
+# "markup.5"
+# "markup.6"
+"markup.list" = "base6"
+# "markup.list.unnumbered"
+# "markup.list.numbered"
+"markup.bold" = { fg = "blue", modifiers = ["bold"] }
+"markup.italic" = { fg = "purple", modifiers = ["italic"] }
+# "markup.link"
+"markup.link.url" = { fg = "green", modifiers = ["underlined"] }
+# "markup.link.label"
+"markup.link.text" = "red"
+"markup.quote" = "green"
+# "markup.raw"
+# "markup.raw.inline"
+# "markup.raw.block"
+# "diff"
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "orange"
+# "diff.delta.moved"
+
+# ?
+"special" = "#f59762"
+"module" = "#f59762"
+
+[palette]
+"base0" = "#050505"
+"base1" = "#141414"
+"base2" = "#1F1F1F"
+"base3" = "#292929"
+"base4" = "#383838"
+"base5" = "#4D4D4D"
+
+"base6" = "#737373"
+"base7" = "#B3B3B3"
+"base8" = "#F2F2F2"
+
+"red" = "#FB6A8E"
+"orange" = "#FF974D"
+"yellow" = "#FBE36A"
+"green" = "#75D78D"
+"blue" = "#63D2E9"
+"purple" = "#9B8DE2"
+
+# ?
+"base8x0c" = "#2b2b2b"
