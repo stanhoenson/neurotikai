@@ -1,6 +1,6 @@
 # Neurotikai
 
-A theme based on Monokai Pro (Spectrum), but *tweaked by a neurotic*.
+A theme based on [Monokai Pro](https://monokai.pro/) (Spectrum), but *tweaked by a neurotic*.
 
 It is slightly more 'contrasty' than Monokai Pro (Spectrum).
 
